@@ -40,6 +40,7 @@ label {
   box-shadow: 0px 15px 30px -12px rgba(255, 255, 255, 0.2);
 }
 
+
 .calculate-btn:focus {
   background-color: #32408f;
 }
@@ -98,4 +99,46 @@ label {
 
 .delete-btn:focus {
   background-color: #e74c3c;
+}
+
+
+.submit-btn {
+  background-color: #3f51b5;
+  padding: 12px 50px;
+  color: white;
+  font-size: 16px;
+  border-radius: 44px;
+  cursor: pointer;
+  border: 1px solid #3f51b5;
+  margin-bottom: 40px;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+  background-color: #fff;
+  transform: translate(0px, -2px);
+  color: #5364c3;
+  box-shadow: 0px 15px 30px -12px rgba(255, 255, 255, 0.2);
+}
+
+
+.submit-btn:focus {
+  background-color: #32408f;
+}
+
+.submit-btn:focus:hover {
+  color: white;
+}
+
+.submit-btn:disabled {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
+}
+
+.submit-btn:disabled:hover {
+  box-shadow: none;
+  transform: translate(0, 0);
 }
